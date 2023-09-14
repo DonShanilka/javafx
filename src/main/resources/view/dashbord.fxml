@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="400.0" prefWidth="822.0" VBox.vgrow="ALWAYS">
+         <children>
+            <AnchorPane layoutY="-1.0" prefHeight="585.0" prefWidth="925.0" style="-fx-background-color: FFFFFF;">
+               <children>
+                  <Rectangle arcHeight="25.0" arcWidth="25.0" fill="#f2f2f2" height="41.0" layoutX="19.0" layoutY="520.0" stroke="#f2f2f2" strokeType="INSIDE" width="243.0" />
+                  <Rectangle arcHeight="25.0" arcWidth="25.0" fill="#f2f2f2" height="142.0" layoutX="19.0" layoutY="214.0" stroke="#f2f2f2" strokeType="INSIDE" width="243.0" />
+                  <Rectangle arcHeight="20.0" arcWidth="20.0" fill="#272072" height="49.0" layoutX="287.0" layoutY="10.0" stroke="#272072" strokeType="INSIDE" width="618.0" />
+                  <Rectangle arcHeight="25.0" arcWidth="25.0" fill="#e8e1e1" height="495.0" layoutX="285.0" layoutY="70.0" stroke="#f2f2f2" strokeType="INSIDE" width="618.0" />
+                  <Rectangle arcHeight="12.0" arcWidth="12.0" fill="#2bebc8" height="132.0" layoutX="296.0" layoutY="82.0" stroke="#2bebc8" strokeType="INSIDE" width="597.0" />
+                  <Text fill="WHITE" layoutX="500.0" layoutY="38.0" stroke="#2debc8" strokeType="OUTSIDE" strokeWidth="0.0" text="NURSE DASHBOARD" wrappingWidth="327.7294921875">
+                     <font>
+                        <Font name="Arial Black" size="16.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="305.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Welcome to your Dashbord!" wrappingWidth="356.2265625">
+                     <font>
+                        <Font name="DejaVu Serif Bold" size="21.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="311.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Try your Nurse Dashboard. Customize it to your needs and reples to production" wrappingWidth="302.2265577316284">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Text>
+                  <Button layoutX="800.0" layoutY="520.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="93.0" style="-fx-background-radius: 20; -fx-background-color: #408AFA;" text="LogOut" textFill="WHITE" />
+                  <Button layoutX="19.0" layoutY="214.0" mnemonicParsing="false" onAction="#btnHealthReportOnAction" prefHeight="41.0" prefWidth="243.0" style="-fx-background-radius: 25; -fx-background-color: #408AFA;" text="Health Report" textFill="WHITE">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="19.0" layoutY="313.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="243.0" style="-fx-background-radius: 25; -fx-background-color: #408AFA;" text="Request" textFill="WHITE">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="19.0" layoutY="523.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="243.0" style="-fx-background-radius: 25; -fx-background-color: #408AFA;" text="Dark Mod" textFill="WHITE" />
+                  <Rectangle arcHeight="20.0" arcWidth="20.0" fill="WHITE" height="34.0" layoutX="758.0" layoutY="18.0" stroke="WHITE" strokeType="INSIDE" width="139.0" />
+                  <Button layoutX="19.0" layoutY="263.0" mnemonicParsing="false" onAction="#btnMentalOnAction" prefHeight="41.0" prefWidth="243.0" style="-fx-background-radius: 25; -fx-background-color: #408AFA;" text="Mental Health Report" textFill="WHITE">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <ImageView fitHeight="167.0" fitWidth="111.0" layoutY="2.0">
+                     <image>
+                        <Image url="@NoyonLanka.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="70.0" fitWidth="180.0" layoutX="505.0" layoutY="220.0">
+                     <image>
+                        <Image url="@newpe.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="70.0" fitWidth="180.0" layoutX="710.0" layoutY="220.0">
+                     <image>
+                        <Image url="@Oparetion.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="120.0" fitWidth="400.0" layoutX="296.0" layoutY="304.0">
+                     <image>
+                        <Image url="@MentalHealth.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="120.0" fitWidth="400.0" layoutX="296.0" layoutY="433.0">
+                     <image>
+                        <Image url="@physical.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="70.0" fitWidth="180.0" layoutX="299.0" layoutY="220.0">
+                     <image>
+                        <Image url="@apoimant.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="113.0" fitWidth="211.0" layoutX="684.0" layoutY="92.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@welcome.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>
